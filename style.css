@@ -4,6 +4,10 @@
     box-sizing: border-box;
     overflow-x: hidden;
 }
+
+.bg___parent{
+    background-color: #191919 !important;
+}
 .container{
     width: 100%;
     display: flex;  
@@ -20,9 +24,6 @@
 
 
 /* FEATURES ------6------ card section area */
-.bg___parent{
-    background-color: #000;
-}
 
 .content__area{
     text-align: center;
@@ -115,6 +116,8 @@
 }
 .container____section___row .card{
     flex: 1;
+    justify-content: center;
+    align-items: center;
     margin: 20px 20px;
     padding: 20px 40px;
     box-shadow: 0px 2px 8px 0px rgba(0,0,0,0.2);
@@ -244,76 +247,15 @@ font-weight: 900;
 /* al Responsive Web Design Media device tablet phone laptop computer */
 
 @media only screen and (max-width: 992px){
-   
-    .container____section___row{
-        flex-direction: column;
-    }
     .main____container___contactless___row{
         display: grid;
         grid-template-columns: repeat(1, 1fr);
+        justify-content: center;
+        align-items: center;
     }
-    .container____section___row .card{
-        width: 100%
-    
-    }
-    .right_btn_left{
-        display: none;
-     }
 }
 
 /* iPad device */
 @media only screen and (max-width: 688px){
-    .container____section___row{
-        flex-direction: column;
-    }
-    .main____container___contactless___row{
-        display: grid;
-        grid-template-columns: repeat(1, 1fr);
-    }
-    .container____section___row .card{
-        width: 100%;
-        height: auto;
     
-    }
-    .right_btn_left{
-      display: none;
-    }
-}
-
- /* ------------Phone device--------------*/
-/* @media screen and (max-width:550px) {
-    .container____section___row{
-        flex-direction: column;
-    }
-    .main____container___contactless___row{
-        display: grid;
-        grid-template-columns: repeat(1, 1fr);
-    }
-    .container____section___row .card{
-        flex: 1;
-        margin: 20px 20px;
-        padding: 20px 40px;
-        box-shadow: 0px 2px 8px 0px rgba(0,0,0,0.2);
-        border-radius: 5px;
-        width: 100%;
-        height: auto;
-    
-    }
-    .right_btn_left{
-        border: none;
-        width: 50px;
-        height: 50px;
-        display: none;
-     }
-
-} */
-
-
-
-
-/* extra lg device */
-
-@media screen and (max-width:850px) {
-    
-   
 }
