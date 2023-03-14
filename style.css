@@ -1,0 +1,319 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    overflow-x: hidden;
+}
+.container{
+    width: 100%;
+    display: flex;  
+    justify-content: center;
+    align-items: center;
+    padding: 0px 80px;
+}
+
+
+
+
+
+
+
+
+/* FEATURES ------6------ card section area */
+.bg___parent{
+    background-color: #000;
+}
+
+.content__area{
+    text-align: center;
+    
+}
+.content__area h4{
+    padding-top: 20px;
+    margin-bottom: 1.5rem;
+    font-size: 26px;
+    font-weight: bold;
+    font-family: 'Montserrat';
+    color: #F81F01;
+    font-style: normal;
+    text-transform: uppercase;
+    
+}
+.content__area h3{
+   padding-bottom: 20px;
+    font-size: 36px;
+    font-weight: bold;
+    color: #ffff;
+    font-family: 'Montserrat';
+}
+
+.main____container___contactless___row{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    justify-content: center;
+    align-items: center;
+}
+.main____container___contactless___row .container___card{
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin: 20px 20px;
+    padding: 20px ;
+    box-shadow: 0px 2px 8px 0px #191919;
+    border-radius: 5px;
+    width: 419px;
+    height: 419px;
+}
+.active__card{
+    background: linear-gradient(135deg, #F81F01 0%, #EE076E 100%);
+    color: white;
+    border-radius: 5px;
+}
+.main____container___contactless___row .container___card:hover{
+    background: linear-gradient(135deg, #F81F01 0%, #EE076E 100%);
+    color: white;
+    transition:2s;
+}
+
+.container___card img{
+    width: 50px;
+    height: 50px;
+    top: 20px;
+    left: 5px;
+    display: block;
+    margin: auto;
+} 
+.container___card h6{
+    text-align: center;
+    font-size: 24px;
+    font-weight: 900px;
+    font-family: 'Courier New', Courier, monospace;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    
+}
+.container___card p{
+    font-size: 20px;
+    color: #FFFFFF;
+}
+
+
+
+
+
+
+
+
+/* SUBSCRIPTION MAKE YOUR FIRST IMPRESSION SPECIAL */
+
+.container____section___row{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.container____section___row .card{
+    flex: 1;
+    margin: 20px 20px;
+    padding: 20px 40px;
+    box-shadow: 0px 2px 8px 0px rgba(0,0,0,0.2);
+    border-radius: 5px;
+    width: 419px;
+    height: 419px;
+
+}
+
+.impression___text__mini{
+    color: #F81F01;
+    text-align: center;
+    margin-top: 40px;
+    list-style-type: upper-alpha;
+    font-size: 28px;
+    font-weight: bold;
+}
+.impression___text{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 32px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #1C1E1A;
+
+}
+
+.container____section___row .card img{
+    width: 100%;
+    height: auto;
+}
+.important___bg{
+    background: linear-gradient(135deg, #F81F01 0%, #EE076E 100%);
+    color: white ;
+}
+.container____section___row .card img{
+    Width: 55px;
+    Height: 55px;
+    Top:2.5px;
+    Left:2.5px
+}
+.container____section___row .card h6{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 32px;
+    text-align: center;
+    letter-spacing: 0.15em;
+    text-transform: uppercase;
+    color: #1C1E1A;
+
+}
+
+
+.container____section___row .card p{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 27px;
+    text-align: center;
+    color: #1C1E1A;
+}
+.container____section___row .card h5{
+font-family: 'Montserrat';
+font-style: normal;
+font-size: 36px;
+line-height: 32px;
+margin-top: 29px;
+letter-spacing: 0.15em;
+text-transform: uppercase;
+text-align: center;
+color: #1C1E1A;
+font-weight: 900;
+}
+
+.container____section___row .card span{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-size: 36px;
+    line-height: 32px;
+    margin-top: 29px;
+    letter-spacing: 0.15em;
+    text-transform: uppercase;
+    text-align: center;
+    color: #1C1E1A;
+    }
+.right_btn_left{
+    border: none;
+    width: 50px;
+    height: 50px;
+}
+
+.btn__hero{
+    background: linear-gradient(135deg, #F81F01 0%, #EE076E 100%);
+    border-radius: 5px;
+    color: white;
+    width: 181px;
+    height: 54px;
+    outline: none;
+    display: block;
+    margin: auto;
+    border: none;
+}
+
+/* End design SUBSCRIPTION MAKE YOUR FIRST IMPRESSION SPECIAL */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* al Responsive Web Design Media device tablet phone laptop computer */
+
+@media only screen and (max-width: 992px){
+   
+    .container____section___row{
+        flex-direction: column;
+    }
+    .main____container___contactless___row{
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+    }
+    .container____section___row .card{
+        width: 100%
+    
+    }
+    .right_btn_left{
+        display: none;
+     }
+}
+
+/* iPad device */
+@media only screen and (max-width: 688px){
+    .container____section___row{
+        flex-direction: column;
+    }
+    .main____container___contactless___row{
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+    }
+    .container____section___row .card{
+        width: 100%;
+        height: auto;
+    
+    }
+    .right_btn_left{
+      display: none;
+    }
+}
+
+ /* ------------Phone device--------------*/
+/* @media screen and (max-width:550px) {
+    .container____section___row{
+        flex-direction: column;
+    }
+    .main____container___contactless___row{
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+    }
+    .container____section___row .card{
+        flex: 1;
+        margin: 20px 20px;
+        padding: 20px 40px;
+        box-shadow: 0px 2px 8px 0px rgba(0,0,0,0.2);
+        border-radius: 5px;
+        width: 100%;
+        height: auto;
+    
+    }
+    .right_btn_left{
+        border: none;
+        width: 50px;
+        height: 50px;
+        display: none;
+     }
+
+} */
+
+
+
+
+/* extra lg device */
+
+@media screen and (max-width:850px) {
+    
+   
+}
